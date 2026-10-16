@@ -10,3 +10,8 @@
 .standard-warning{padding:16px 18px;border-left:4px solid #1d4ed8;background:#eef4ff;color:#172554!important;border-radius:8px}
 .disclosure-note{padding-top:14px;border-top:1px solid #e3e7ec}
 @media(max-width:700px){.disclosure-card{padding:22px 18px}.disclosure{padding:52px 0}}
+
+/* Keep the profile-card labels and descriptions clearly separated. */
+.mini-points>div{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:8px;row-gap:0;margin:6px 0}
+.mini-points>div strong{white-space:nowrap}
+.mini-points>div small{line-height:1.5}
